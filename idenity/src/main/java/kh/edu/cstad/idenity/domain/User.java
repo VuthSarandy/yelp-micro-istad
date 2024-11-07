@@ -85,7 +85,7 @@ public class User extends Auditable<String> {
     @Column(columnDefinition = "BOOLEAN DEFAULT FALSE")
     private Boolean emailVerified;
 
-    @OneToMany(mappedBy = "user", fetch = FetchType.EAGER, cascade = CascadeType.PERSIST)
-    private Set<UserAuthority> userAuthorities;
+    @ManyToMany(fetch = FetchType.EAGER)
+    private Set<Authority> authorities;
 
 }

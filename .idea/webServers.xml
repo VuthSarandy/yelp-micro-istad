@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7c728d2a-34d3-4819-9ece-9ee2dbf25d1e" name="Spring">
+        <fileTransfer accessType="SFTP" host="34.101.79.242" port="22" sshConfigId="9c3ccd64-71ce-4c0c-b476-aadd2136d773" sshConfig="vuthsarandy@34.101.79.242:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" isUseSudo="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
